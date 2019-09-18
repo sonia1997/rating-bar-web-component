@@ -1,13 +1,10 @@
 {
-  "name": "soniapandita",
-  "version": "3.0.0-pre.14",
+  "name": "remix-web-component",
+  "version": "3.0.0-pre.13",
   "flat": true,
   "description": "Build your first element with Polymer 3.0!",
   "main": "index.html",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PolymerLabs/polymer-3-first-element.git"
-  },
+  "repository": "https://github.com/PolymerLabs/polymer-3-first-element.git",
   "author": "The Polymer Project Authors",
   "license": "BSD-3-Clause",
   "dependencies": {
@@ -18,16 +15,5 @@
   },
   "resolutions": {
     "@webcomponents/webcomponentsjs": "1.0.20"
-  },
-  "bugs": {
-    "url": "https://github.com/PolymerLabs/polymer-3-first-element/issues"
-  },
-  "homepage": "https://github.com/PolymerLabs/polymer-3-first-element#readme",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "rating-bar"
-  ]
+  }
 }
