@@ -20,6 +20,9 @@ class RatingBar extends PolymerElement {
 
       <!-- shadow DOM goes here -->
       <iron-icon icon="[[toggleIcon]]"></iron-icon>
+      <iron-icon icon="chevron-right"></iron-icon>
+      <!-- <span>Icons</span> -->
+
     `;
   }
 
