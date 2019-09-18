@@ -1,27 +1,27 @@
 import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
-// import '@polymer/iron-icons/iron-icons.js';
+import '@polymer/iron-icons/iron-icons.js';
 import 'https://unpkg.com/tonysoft@1.53.21/iron-icons.js'
-import '../icon-toggle.js';
+import '../rating-bar.js';
 
 class DemoElement extends PolymerElement {
   static get template() {
     return html`
     <style>
     :host {
-font-family: sans-serif;
---icon-toggle-color: lightgrey;
---icon-toggle-outline-color: black;
---icon-toggle-pressed-color: yellow;
+          font-family: sans-serif;
+          --rating-bar-color: lightgrey;
+          --rating-bar-outline-color: black;
+          --rating-bar-pressed-color: yellow;
 }
     </style>
 
 <center>
-       <h3>Sample rating bar web component</h3>
-      <icon-toggle toggle-icon="star" pressed></icon-toggle>
-    <!--  <icon-toggle toggle-icon="star"></icon-toggle>
-      <icon-toggle toggle-icon="star"></icon-toggle>
-      <icon-toggle toggle-icon="star"></icon-toggle>
-      <icon-toggle toggle-icon="star"></icon-toggle> -->
+      <h3>Sample rating bar web component</h3>
+      <rating-bar toggle-icon="star" pressed></rating-bar>
+      <rating-bar toggle-icon="star"></rating-bar>
+      <rating-bar toggle-icon="star"></rating-bar>
+      <rating-bar toggle-icon="star"></rating-bar>
+      <rating-bar toggle-icon="star"></rating-bar>
 </center>
 
       <!-- <h3>Data-bound icon-toggle</h3> -->
