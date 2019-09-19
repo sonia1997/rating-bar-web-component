@@ -1,6 +1,6 @@
 import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
 import '@polymer/iron-icons/iron-icons.js';
-import 'https://unpkg.com/tonysoft@1.53.21/iron-icons.js'
+import 'https://unpkg.com/tonysoft@1.53.21/iron-icons.js?module'
 import '../rating-bar.js';
 
 class DemoElement extends PolymerElement {
